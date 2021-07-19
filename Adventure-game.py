@@ -93,7 +93,7 @@ def cave(villain):
             print_pause("\nMission not complete, 2")
             print_pause("\nExiting the game...", 2)
 
-    elif 'turn' in respose2:
+    elif 'turn' in response2:
         print_pause("\nMission not complete", 2)
         print_pause("\nExiting the game...", 2)
 
