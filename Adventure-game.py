@@ -68,6 +68,7 @@ def house(villain):
         elif 'no' in answer:
             print_pause("\nMision not completed...", 2)
             print_pause("\nThank you for playing", 2)
+            play_again()
 
 
 def cave(villain):
@@ -92,10 +93,12 @@ def cave(villain):
         elif response3 == 'no':
             print_pause("\nMission not complete, 2")
             print_pause("\nExiting the game...", 2)
+            play_again()
 
     elif 'turn' in response2:
         print_pause("\nMission not complete", 2)
         print_pause("\nExiting the game...", 2)
+        play_again()
 
 
 def mission(villain):
@@ -123,6 +126,7 @@ def mission(villain):
                     " straight to the helicopter", 2)
         print_pause("\nCongratulations!!!!", 2)
         print_pause("\nYou have won the game", 2)
+        play_again()
 
 
 def play_again():
